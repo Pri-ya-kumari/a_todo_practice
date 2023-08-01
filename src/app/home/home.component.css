@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    background-color: beige;
+}
+.example-full-width{
+    width: 500px;
+    margin-top: 22px;
+    margin-left: 450px;
+}
+.btn{
+    width: 140px;
+    margin-top: -70px;
+    margin-left: 330px;
+}
+.btn2{
+    width: 140px;
+    margin-top: -17px;
+    margin-left: 300px;
+}
+input{
+    text-align: left;
+    margin-top: 12px;
+}
+.todo{
+    
+    width: 500px;
+    height: auto;
+    margin-left: 450px;
+}
+ul{
+  padding: 2px;
+  list-style: none;  
+}
+ul li{
+    background-color: lightgray;
+    margin: 5px;
+    padding: 10px;
+    border-right: 7px solid #5A4FCF;
+    border-left: 7px solid #5A4FCF;
+}

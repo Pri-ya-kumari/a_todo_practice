@@ -1,0 +1,17 @@
+<div class="container">
+    <div>
+        <form class="form">
+            <mat-form-field class="example-full-width">
+              <mat-label>Enter Task</mat-label>
+              <input matInput placeholder="Enter task" #task>
+              <button mat-raised-button color="primary" class="btn" (click)="addtask(task.value)">Add Task</button>
+            </mat-form-field>
+        </form> 
+   
+    </div>
+    <div class="todo">
+        <ul *ngFor="let item of list" class="boxes">
+            <li>{{item.name}} <button mat-raised-button color="primary" class="btn2" (click)="remove(item.id)">Delete</button></li>
+        </ul>
+    </div>
+</div>    
